@@ -19,7 +19,7 @@ namespace Lab21
                 for (int j = 0; j < 15; j++)
                 {
                     int maxVal = (15-j)*16; 
-                    array[i, j] = (byte)rnd.Next(4, 4+maxVal);  // время на обработку 1 участка, чем ниже, тем дольше...
+                    array[i, j] = (byte)rnd.Next(4, 4+maxVal);  // время на обработку 1 участка, чем левее, тем дольше...
                 }
             }
 
